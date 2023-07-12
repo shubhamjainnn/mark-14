@@ -1,0 +1,51 @@
+:root {
+  --primry-color: #db2777;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: large;
+  font-style: oblique;
+  background-color: #082957;
+  /* font-weight: ; */
+}
+
+input {
+  width: 100%;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid#7c3aed;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  width: 15%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+#output {
+  margin-top: 2rem;
+  color: white;
+}
+h1 {
+  margin-top: 1rem;
+  color: wheat;
+}
+
+button {
+  font-size: large;
+  border-radius: 5px;
+  background-color: #64748b;
+  cursor: pointer;
+}
