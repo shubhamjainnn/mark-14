@@ -21,8 +21,8 @@ function calculateProfitAndLoss(initial, quantity, current) {
       `Hey, the loss is ${loss} and the percent is ${lossPercentage}%`
     );
   } else if (current > initial) {
-    var profit = (current - initial) * 100;
-    var profitPercentage = profit / initial;
+    var profit = (current - initial) * quantity;
+    var profitPercentage = (profit / initial) * 100;
 
     showOutput(
       `Hey, the profit is ${profit} and the percent is ${profitPercentage}%`
